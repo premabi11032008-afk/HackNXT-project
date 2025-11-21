@@ -2,9 +2,7 @@
 import customtkinter as ct
 from tkinter import messagebox
 import math
-import random
-import threading
-import time
+
 
 # Ensure default appearance mode is readable
 # Users can toggle between "Light" and "Dark" from the doctor window

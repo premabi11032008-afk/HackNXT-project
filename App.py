@@ -11,7 +11,7 @@ from Sos import EmergencyApp
 
 DATA_FILE = "users.enc"
 KEY_FILE = "key.key"
-Heading="PFA- Prompt Free Ai Medical Assistant"
+Heading="PFM- Prompt Free AI Medical Assistant"
 cur_user= None
 
 # Generate or load encryption key
@@ -289,7 +289,7 @@ class ChatPage(ct.CTkFrame):
     def open_menu(self):
         self.side_menu.toggle()
 
-    genai.configure(api_key="AIzaSyA3jUiCp6EvCox4NUDcGXukVgFgPtJz7Dg")
+    genai.configure(api_key="AIzaSyAm0XqCcCHTxWgUciVOq_TpYhAi3xrN0Yg")
 
 
     def destroy(self):
